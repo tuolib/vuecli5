@@ -1,0 +1,48 @@
+{
+  "name": "nodejs-express-mysql",
+  "version": "1.0.0",
+  "description": "Node.js Restful CRUD API with Node.js, Express and MySQL",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development nodemon server.js ",
+    "prd": "cross-env NODE_ENV=production nodemon server.js "
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mysql",
+    "restapi"
+  ],
+  "author": "bezkoder",
+  "license": "ISC",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "bcrypt": "^5.0.0",
+    "big.js": "^5.2.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ffmetadata": "^1.6.0",
+    "ffmpeg": "^0.0.4",
+    "ffmpeg-extract-frames": "^2.0.2",
+    "firebase-admin": "^8.13.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "formidable": "^1.2.2",
+    "jimp": "^0.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.1",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "restify": "^8.5.1",
+    "sharp": "^0.25.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.3"
+  }
+}
